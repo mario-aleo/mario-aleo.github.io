@@ -10,5 +10,4 @@ angular.module("ngapp").config(["$stateProvider", "$urlRouterProvider", function
         controller: "MainController",
         controllerAs: "main"
     });
-    
 }]);
