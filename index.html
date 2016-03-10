@@ -37,7 +37,7 @@
 
     <body unresolved>
         <paper-drawer-panel id="paperDrawerPanel">
-            <!-- Drawer Scroll Header Panel -->
+            <!-- Drawer Header Panel -->
             <paper-header-panel drawer fixed>
 
                 <!-- Drawer Toolbar -->
@@ -70,17 +70,17 @@
             </paper-header-panel>
 
             <!-- Main Area -->
-            <paper-scroll-header-panel fixed main>
+            <paper-header-panel fixed main>
                 <!-- Main Toolbar -->
-                <paper-toolbar id="drawerToolbar">
+                <paper-toolbar id="mainToolbar">
                     <paper-icon-button id="paperToggle" icon="menu" paper-drawer-toggle></paper-icon-button>
                     
-                    <div class="app-name">Dungeons & Dices</div>
+                    <div class="app-name">Mario-Aleo</div>
                 </paper-toolbar>
                 
                 <!-- Main Content -->
                 <ui-view></ui-view>
-            </paper-scroll-header-panel>
+            </paper-header-panel>
         </paper-drawer-panel>
     </body>
 </html>
