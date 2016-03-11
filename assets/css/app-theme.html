@@ -213,18 +213,6 @@
     @media all and (min-width: 961px) and (orientation: landscape) { }
     /* tablet-small */
     @media all and (min-width: 600px) and (orientation: portrait) { }
-    /* custom */
-    @media all and (min-width: 601px) and (max-width: 760px) and (orientation : portrait) {
-        .card-content-row {
-             @apply(--layout-vertical);
-             margin-top: -1em;
-             margin-bottom: 2em;
-        }
-        
-        .card-content-row > p {
-             margin-bottom: -1em;
-        }
-    }
     /* tablet-large */
     @media all and (min-width: 601px) and (max-width: 840px) and (orientation : portrait) { }
     /* desktop-x-small-landscape */
@@ -243,4 +231,16 @@
     @media all and (min-width: 1281px) and (max-width: 1600px) { }
     /* desktop-xlarge */
     @media all and (min-width: 1601px) and (max-width: 1920px) { }
+    /* custom */
+    @media all and (min-width: 601px) and (max-width: 760px){
+        .card-content-row {
+             @apply(--layout-vertical);
+             margin-top: -1em;
+             margin-bottom: 2em;
+        }
+        
+        .card-content-row > p {
+             margin-bottom: -1em;
+        }
+    }
 </style>
