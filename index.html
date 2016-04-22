@@ -11,26 +11,10 @@
         <script src="assets/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
         
         <link rel="import" href="assets/css/elements.html">
+        
+        <link rel="import" href="app/components/main/main-content.html">
 
         <style is="custom-style" include="shared-styles"></style>
-        
-        <!-- AngularJs -->
-        <script type="text/javascript" src="assets/lib/angular.min.js"></script>
-        <script type="text/javascript" src="assets/lib/angular-ui-router.min.js"></script>
-        <script type="text/javascript" src="assets/lib/ngStorage.min.js"></script>
-
-        <!-- Cordova -->
-        <script type="text/javascript" src="assets/lib/ng-cordova.min.js"></script>
-        <script src="cordova.js"></script>
-
-        <!-- Modules -->
-        <script type="text/javascript" src="app/app.js"></script>
-
-        <!-- Routes -->
-        <script type="text/javascript" src="app/routes.js"></script>
-
-        <!-- Controllers -->
-        <script type="text/javascript" src="app/components/main/main-controller.js"></script>
         
         <title>Mario-Aleo GitHub</title>
     </head>
@@ -79,7 +63,8 @@
                 </paper-toolbar>
                 
                 <!-- Main Content -->
-                <ui-view></ui-view>
+                <main-content></main-content>
+                
             </paper-scroll-header-panel>
         </paper-drawer-panel>
     </body>
